@@ -11,7 +11,7 @@
 }
 
 .txt{
-    width: 400px;
+    width: 350px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -23,7 +23,6 @@
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
-    padding-right: 100px;
 }
 
 .j{
@@ -35,22 +34,17 @@
     margin: 0;
 }
 
-.card{
+.card1{
     width: 250px;
-    height: 500px;
-    background-color: blue;   
+    height: 440px; 
     position: relative;
-    padding: 10px;
     transition: 0.3s;
-    padding-bottom: 40px;
-    border: 0;
 }
 
 .inner{
     height: 300px;
     background-image: url(../Images/product_1.avif);
     background-size: cover;
-    background-position: center;
     margin-bottom: 20px;
 }
 
@@ -78,56 +72,53 @@
     margin-bottom: 20px;
 }
 
-.card h1{
+.card1 h1{
     font-weight: 600;
     font-size: 20px;
     transition: 0.5s;
 }
 
-.card h3{
+.card1 h3{
     font-size: 20px;
     margin-bottom: 20px;
     transition: 0.5s;
 }
 
-.card h2{
-    position: absolute;
+.card1 h2{
     font-size: 18px;
-    bottom: 0;
     color: #d1164a;
     text-transform: uppercase;
     opacity: 0;
     transition: 0.5s;
-    margin-bottom: 20px;
 }
 
-.card label i{
+.card1 label i{
     position: absolute;
-    right: 20px;
-    bottom: 20px;
+    right: 0;
+    bottom: 25px;
     opacity: 0;
     transition: 0.5s;
 }
 
-.card:hover{
+.card1:hover{
     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
 }
 
-.card:hover h1{
+.card1:hover h1{
     margin-left: 20px;
 }
 
-.card:hover h3{
+.card1:hover h3{
     margin-left: 20px;
 }
 
-.card:hover h2{
-    margin-left: 10px;
+.card1:hover h2{
+    margin-left: 20px;
     opacity: 1;
 }
 
-.card:hover label i{
-    margin-right: 10px;
+.card1:hover label i{
+    margin-right: 20px;
     opacity: 1;
 }
 
@@ -137,4 +128,5 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px 50px;
+    margin-top: 70px;
 }
