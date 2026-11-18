@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardcontainer{
+    background-color: white;
+    padding-block: 100px;
+}
+
+.h{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.j{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(99, 99, 99);
+    position: absolute;
+    left: 400px;
+    top: 105px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.card{
+    width: 250px;
+    height: 500px;
+    background-color: blue;   
+    position: relative;
+    padding: 10px;
+    transition: 0.3s;
+    padding-bottom: 40px;
+    border: 0;
+}
+
+.inner{
+    height: 300px;
+    background-image: url(../Images/product_1.avif);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.inner1{
+    background-image: url(../Images/product_2.avif);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.inner2{
+    background-image: url(../Images/product_3.avif);
+        background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.inner3{
+    background-image: url(../Images/product_4.avif);
+        background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.card h1{
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.card h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.card h2{
+    position: absolute;
+    font-size: 18px;
+    bottom: 0;
+    color: #d1164a;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.card label i{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.13);
+}
+
+.card:hover h1{
+    margin-left: 20px;
+}
+
+.card:hover h3{
+    margin-left: 20px;
+}
+
+.card:hover h2{
+    margin-left: 10px;
+    opacity: 1;
+}
+
+.card:hover label i{
+    margin-right: 10px;
+    opacity: 1;
+}
+
+.cardbox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px 50px;
+}
